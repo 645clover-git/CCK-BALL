@@ -5,7 +5,7 @@
  */
 
 #include "cck_ball.dtsi"
-
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 &kscan0 {
 	col-gpios
 		= <&gpio1 15 GPIO_ACTIVE_HIGH>
